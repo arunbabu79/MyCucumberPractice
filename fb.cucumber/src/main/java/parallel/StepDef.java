@@ -61,7 +61,7 @@ public class StepDef {
 		@SuppressWarnings("deprecation")
 		@Then("validate that username password and login button is displayed")
 		public void validate_that_username_password_and_login_button_is_displayed() {
-			Assert.assertTrue(driver.findElement(By.cssSelector("input#email1")).isDisplayed());
+			Assert.assertTrue(driver.findElement(By.cssSelector("input#email")).isDisplayed());
 			Assert.assertTrue(driver.findElement(By.cssSelector("input#pass")).isDisplayed());
 			Assert.assertTrue(driver.findElement(By.cssSelector("button[name='login']")).isDisplayed());
 
