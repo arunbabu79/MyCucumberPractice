@@ -4,14 +4,14 @@
 #################################
 
 Feature: To validate facebook login3
-
+@full
   Scenario: To validate facebook login fields3
     Given The user is on facebook.com
     When title of the login page is facebook
     Then validate that username password and login button is displayed
     Then close the browser
 
-
+@smokeTest
   Scenario Outline: validate facebook login3
     Given The user is on facebook.com
     When user enter username <user>

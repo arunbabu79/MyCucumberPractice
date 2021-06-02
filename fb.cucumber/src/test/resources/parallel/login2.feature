@@ -2,16 +2,16 @@
 #Author: Arun K Babu
 #Date: 1/27/2021
 #################################
-@SmokeScenario
-Feature: To validate facebook login2
 
+Feature: To validate facebook login2
+ @full
   Scenario: To validate facebook login fields2
     Given The user is on facebook.com
     When title of the login page is facebook
     Then validate that username password and login button is displayed
     Then close the browser
 
-  @SmokeTest
+ @full
   Scenario Outline: To validate facebook login2
     Given The user is on facebook.com
     When user enter username <user>
