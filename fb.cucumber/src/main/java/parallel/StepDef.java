@@ -18,6 +18,7 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.Assert;
 
 public class StepDef {
@@ -42,7 +43,8 @@ public class StepDef {
 
 		@Given("The user is on facebook.com")
 		public void the_user_is_on_facebook_com() throws InterruptedException {
-			System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\ver88\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\ver88\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			driver.get("https://www.facebook.com/");
 			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
