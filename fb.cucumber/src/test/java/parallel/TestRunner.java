@@ -12,6 +12,7 @@ import org.junit.runner.RunWith;
 				   "json:Report/cucumber-json-report.json","junit:Report/cucumber-junit-report.xml",
 				   "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, //to generate different report types
 		dryRun=false,
+		tags=" @smoke",
 		monochrome = true
 					)
 public class TestRunner {
