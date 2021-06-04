@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="59.353">
-    <testcase classname="To validate facebook login" name="To validate facebook login fields" time="11.556">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#email1&quot;}&#10;  (Session info: chrome=88.0.4324.150)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'HEN018448', ip: '172.27.84.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\akannupa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fb3123eea5a5969e75eaf97395f0c73e&#10;*** Element info: {Using=css selector, value=input#email1}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given The user is on facebook.com...........................................passed
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="160.22">
+    <testcase classname="To validate facebook login" name="To validate facebook login fields" time="61.206">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#email1&quot;}&#10;  (Session info: chrome=91.0.4472.77)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Aruns-MacBook-Air.local', ip: 'fe80:0:0:0:819:cef8:9f5a:db0c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/4k/xqpm3jv51hs...}, goog:chromeOptions: {debuggerAddress: localhost:62184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f436ce008157b5866f0d413ad3346f62&#10;*** Element info: {Using=css selector, value=input#email1}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given The user is on facebook.com...........................................passed
 When title of the login page is facebook....................................passed
 Then validate that username password and login button is displayed..........failed
 Then close the browser......................................................skipped
 
 StackTrace:
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input#email1"}
-  (Session info: chrome=88.0.4324.150)
+  (Session info: chrome=91.0.4472.77)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HEN018448', ip: '172.27.84.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+System info: host: 'Aruns-MacBook-Air.local', ip: 'fe80:0:0:0:819:cef8:9f5a:db0c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\akannupa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fb3123eea5a5969e75eaf97395f0c73e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/4k/xqpm3jv51hs...}, goog:chromeOptions: {debuggerAddress: localhost:62184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f436ce008157b5866f0d413ad3346f62
 *** Element info: {Using=css selector, value=input#email1}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -31,58 +31,65 @@ Session ID: fb3123eea5a5969e75eaf97395f0c73e
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at parallel.StepDef.validate_that_username_password_and_login_button_is_displayed(StepDef.java:64)
-	at ✽.validate that username password and login button is displayed(file:///C:/Users/akannupa/git/MyCucumberPractice1/fb.cucumber/src/test/resources/parallel/login.feature:11)
-]]></failure>
+	at parallel.StepDef.validate_that_username_password_and_login_button_is_displayed(StepDef.java:66)
+	at ✽.validate that username password and login button is displayed(file:///Users/Arun/git/MyCucumberPractice/fb.cucumber/src/test/resources/parallel/login.feature:11)
+]]>
+        </failure>
     </testcase>
-    <testcase classname="To validate facebook login" name="To validate facebook login" time="16.24">
-        <system-out><![CDATA[Given The user is on facebook.com...........................................passed
+    <testcase classname="To validate facebook login" name="To validate facebook login" time="38.512">
+        <system-out>
+            <![CDATA[Given The user is on facebook.com...........................................passed
 When user enter username arunbabu2@hotmail.com..............................passed
 And user enters password Darsh@1979.........................................passed
 And user selects login button...............................................passed
 Then user homepage is displayed.............................................passed
 Then close the browser......................................................passed
-]]></system-out>
+]]>
+        </system-out>
     </testcase>
-    <testcase classname="To validate facebook login" name="To validate facebook login 2" time="16.468">
-        <system-out><![CDATA[Given The user is on facebook.com...........................................passed
+    <testcase classname="To validate facebook login" name="To validate facebook login 2" time="34.483">
+        <system-out>
+            <![CDATA[Given The user is on facebook.com...........................................passed
 When user enter username arunbabu23@hotmail.com.............................passed
 And user enters password Darsh@1979.........................................passed
 And user selects login button...............................................passed
 Then user homepage is displayed.............................................passed
 Then close the browser......................................................passed
-]]></system-out>
+]]>
+        </system-out>
     </testcase>
-    <testcase classname="To validate facebook login" name="To validate facebook login 3" time="14.934">
-        <system-out><![CDATA[Given The user is on facebook.com...........................................passed
+    <testcase classname="To validate facebook login" name="To validate facebook login 3" time="25.302">
+        <system-out>
+            <![CDATA[Given The user is on facebook.com...........................................passed
 When user enter username arunbabu78@hotmail.com.............................passed
 And user enters password Darsh@1979.........................................passed
 And user selects login button...............................................passed
 Then user homepage is displayed.............................................passed
 Then close the browser......................................................passed
-]]></system-out>
+]]>
+        </system-out>
     </testcase>
-    <testcase classname="To validate facebook login2" name="To validate facebook login fields2" time="11.544">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#email1&quot;}&#10;  (Session info: chrome=88.0.4324.150)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'HEN018448', ip: '172.27.84.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\akannupa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c77583b7dff8f02df1e3ea72732a9df1&#10;*** Element info: {Using=css selector, value=input#email1}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given The user is on facebook.com...........................................passed
+    <testcase classname="To validate facebook login2" name="To validate facebook login fields2" time="61.223">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#email1&quot;}&#10;  (Session info: chrome=91.0.4472.77)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Aruns-MacBook-Air.local', ip: 'fe80:0:0:0:819:cef8:9f5a:db0c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/4k/xqpm3jv51hs...}, goog:chromeOptions: {debuggerAddress: localhost:62187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 46adc8a396ee56827237edff4e273df6&#10;*** Element info: {Using=css selector, value=input#email1}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given The user is on facebook.com...........................................passed
 When title of the login page is facebook....................................passed
 Then validate that username password and login button is displayed..........failed
 Then close the browser......................................................skipped
 
 StackTrace:
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input#email1"}
-  (Session info: chrome=88.0.4324.150)
+  (Session info: chrome=91.0.4472.77)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HEN018448', ip: '172.27.84.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+System info: host: 'Aruns-MacBook-Air.local', ip: 'fe80:0:0:0:819:cef8:9f5a:db0c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\akannupa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c77583b7dff8f02df1e3ea72732a9df1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/4k/xqpm3jv51hs...}, goog:chromeOptions: {debuggerAddress: localhost:62187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46adc8a396ee56827237edff4e273df6
 *** Element info: {Using=css selector, value=input#email1}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -93,49 +100,54 @@ Session ID: c77583b7dff8f02df1e3ea72732a9df1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at parallel.StepDef.validate_that_username_password_and_login_button_is_displayed(StepDef.java:64)
-	at ✽.validate that username password and login button is displayed(file:///C:/Users/akannupa/git/MyCucumberPractice1/fb.cucumber/src/test/resources/parallel/login2.feature:11)
-]]></failure>
+	at parallel.StepDef.validate_that_username_password_and_login_button_is_displayed(StepDef.java:66)
+	at ✽.validate that username password and login button is displayed(file:///Users/Arun/git/MyCucumberPractice/fb.cucumber/src/test/resources/parallel/login2.feature:11)
+]]>
+        </failure>
     </testcase>
-    <testcase classname="To validate facebook login2" name="To validate facebook login2" time="16.154">
-        <system-out><![CDATA[Given The user is on facebook.com...........................................passed
+    <testcase classname="To validate facebook login2" name="To validate facebook login2" time="37.624">
+        <system-out>
+            <![CDATA[Given The user is on facebook.com...........................................passed
 When user enter username arunbabu2@hotmail.com..............................passed
 And user enters password Darsh@1979.........................................passed
 And user selects login button...............................................passed
 Then user homepage is displayed.............................................passed
 Then close the browser......................................................passed
-]]></system-out>
+]]>
+        </system-out>
     </testcase>
-    <testcase classname="To validate facebook login2" name="To validate facebook login2 2" time="16.396">
-        <system-out><![CDATA[Given The user is on facebook.com...........................................passed
+    <testcase classname="To validate facebook login2" name="To validate facebook login2 2" time="35.731">
+        <system-out>
+            <![CDATA[Given The user is on facebook.com...........................................passed
 When user enter username arunbabu23@hotmail.com.............................passed
 And user enters password Darsh@1978.........................................passed
 And user selects login button...............................................passed
 Then user homepage is displayed.............................................passed
 Then close the browser......................................................passed
-]]></system-out>
+]]>
+        </system-out>
     </testcase>
-    <testcase classname="To validate facebook login3" name="To validate facebook login fields3" time="11.254">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#email1&quot;}&#10;  (Session info: chrome=88.0.4324.150)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'HEN018448', ip: '172.27.84.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\akannupa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53454}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e0ca03efc13b2a47232ae1d71f43a977&#10;*** Element info: {Using=css selector, value=input#email1}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given The user is on facebook.com...........................................passed
+    <testcase classname="To validate facebook login3" name="To validate facebook login fields3" time="61.284">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#email1&quot;}&#10;  (Session info: chrome=91.0.4472.77)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Aruns-MacBook-Air.local', ip: 'fe80:0:0:0:819:cef8:9f5a:db0c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/4k/xqpm3jv51hs...}, goog:chromeOptions: {debuggerAddress: localhost:62190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 23610e39502140ac1ac4e21c16c51245&#10;*** Element info: {Using=css selector, value=input#email1}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given The user is on facebook.com...........................................passed
 When title of the login page is facebook....................................passed
 Then validate that username password and login button is displayed..........failed
 Then close the browser......................................................skipped
 
 StackTrace:
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input#email1"}
-  (Session info: chrome=88.0.4324.150)
+  (Session info: chrome=91.0.4472.77)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HEN018448', ip: '172.27.84.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+System info: host: 'Aruns-MacBook-Air.local', ip: 'fe80:0:0:0:819:cef8:9f5a:db0c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\akannupa\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53454}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e0ca03efc13b2a47232ae1d71f43a977
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/4k/xqpm3jv51hs...}, goog:chromeOptions: {debuggerAddress: localhost:62190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23610e39502140ac1ac4e21c16c51245
 *** Element info: {Using=css selector, value=input#email1}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -146,17 +158,20 @@ Session ID: e0ca03efc13b2a47232ae1d71f43a977
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at parallel.StepDef.validate_that_username_password_and_login_button_is_displayed(StepDef.java:64)
-	at ✽.validate that username password and login button is displayed(file:///C:/Users/akannupa/git/MyCucumberPractice1/fb.cucumber/src/test/resources/parallel/login3.feature:11)
-]]></failure>
+	at parallel.StepDef.validate_that_username_password_and_login_button_is_displayed(StepDef.java:66)
+	at ✽.validate that username password and login button is displayed(file:///Users/Arun/git/MyCucumberPractice/fb.cucumber/src/test/resources/parallel/login3.feature:11)
+]]>
+        </failure>
     </testcase>
-    <testcase classname="To validate facebook login3" name="validate facebook login3" time="15.961">
-        <system-out><![CDATA[Given The user is on facebook.com...........................................passed
+    <testcase classname="To validate facebook login3" name="validate facebook login3" time="38.268">
+        <system-out>
+            <![CDATA[Given The user is on facebook.com...........................................passed
 When user enter username arunbabu2@hotmail.com..............................passed
 And user enters password Darsh@1979.........................................passed
 And user selects login button...............................................passed
 Then user homepage is displayed.............................................passed
 Then close the browser......................................................passed
-]]></system-out>
+]]>
+        </system-out>
     </testcase>
 </testsuite>
